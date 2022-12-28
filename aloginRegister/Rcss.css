@@ -1,0 +1,20 @@
+.main-title {
+	font-family: "Comic Sans MS";
+	text-align: center;
+	font-size: 40px;
+}
+
+.panel {
+	border: 1px solid black;
+	margin-left: 180px;
+	border-spacing: 50px;
+	width:70%;
+	border-spacing: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+.table {
+	margin-left: 150px;
+
+}

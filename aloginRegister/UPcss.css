@@ -1,0 +1,119 @@
+#thumbnil3 {
+ border-radius: 50%;
+ border: 1px solid #DCC9AD;
+}
+
+.profilepanel {
+	border: 1px solid #E8E5E1;
+	border-radius: 25px;
+	background-color: #fff;
+	border-spacing: 30px;
+	width: 320px;
+	height: 200px;
+	margin: auto;
+	margin-left: 40px;
+	float:left;
+
+}
+
+/* #right{
+	float:right;
+	margin-right:500px;
+} */
+
+.userprofile {
+/* 	font-family: "Comic Sans MS";
+	text-align: center; */
+	float:right;
+	margin-right:50px;
+	margin-top:-65px;
+}
+
+.userdate{
+	float:right;
+	margin-right:30px;
+	margin-top:-100px;
+}
+
+.UserAvatar {
+	margin-top: 10px;
+	margin-left:10px;
+}
+
+#c{
+	position: absolute;
+	bottom: 20px;
+	left: 700px;
+}
+
+.image{
+	border: 1px solid black;
+	margin-left: 500px;
+	width: 11.7%;
+	height: 18%;
+	position: relative;
+	background-color: #ccc;
+}
+
+.profileimage {
+	position: relative;
+	text-align: center;
+}
+
+.price {
+	text-align: center;
+}
+
+/* Tab */
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+div.tab {
+    margin-left:50px;
+    border: 1px solid #ccc;
+	border-radius:12px;
+    background-color: #f1f1f1;
+    width: 22%;
+	font-family: "Comic Sans MS";
+	text-align: center;
+
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+   margin-left:380px;
+   margin-top:-340px;
+   margin-right:20px;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+     border-radius: 25px;
+    border-left: 1px solid #ccc;
+	width: 70%;
+	float:right;
+}

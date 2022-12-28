@@ -1,0 +1,64 @@
+﻿$(function () {
+    var popupOpened = false;
+    $('#searchBarButton').click(function () {
+        var searchWord = $.trim($('#searchBarInput').val());
+        var searchType = $.trim($('#searchType').val());
+        if (searchWord.length > 1) {
+            /*
+            if ((!popupOpened) && (navigator.cookieEnabled)) {
+                if (document.cookie.indexOf("popupAd=1") < 0) {
+                    document.cookie = "popupAd=1";
+                    window.open('');
+                }
+            }*/
+            window.location.href = '/search.html?q=' + encodeURIComponent(searchWord) + '&tip=' + encodeURIComponent(searchType);
+        }
+    });
+        
+    $('#checkBoxRegisterShowPassword').change(function () {
+        if ($('#checkBoxRegisterShowPassword').prop('checked')) $('#textBoxRegisterPassword').attr('type', 'text');
+        else $('#textBoxRegisterPassword').attr('type', 'password');
+    });
+    $(".logo-image").error(function () {
+        $(this).attr('src', 'http://www.freeiconspng.com/_img/image-not-found.png');
+    });
+});
+  
+function shareTwitter(page) { window.open(page, "shareTwitter", "height=400,width=550,resizable=1,toolbar=0,menubar=0,status=0,location=0"); }
+function shareFacebook(page) { window.open(page, "shareFacebook", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0"); }
+function sharePinterest(page) { window.open(page, "sharePinterest", "height=270,width=630,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0"); }
+function shareGooglePlus(page) { window.open(page, "shareGooglePlus", "height=270,width=630,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0"); }
+(function ($) {
+    $.fn.extend({
+        limiter: function (limit, elem) {
+            $(this).on("keyup focus", function () {
+                setCount(this, elem);
+            });
+            function setCount(src, elem) {
+                var chars = src.value.length;
+                if (chars > limit) {
+                    src.value = src.value.substr(0, limit);
+                    chars = limit;
+                }
+                if (elem != "") elem.html(chars + ' / ' + limit);
+            }
+            setCount($(this)[0], elem);
+        }
+    });
+})(jQuery);
+jQuery.fn.highlight = function () {
+    $(this).each(function () {
+        var el = $(this);
+        $("<div/>")
+        .width(el.outerWidth())
+        .height(el.outerHeight())
+        .css({
+            "position": "absolute",
+            "left": el.offset().left,
+            "top": el.offset().top,
+            "background-color": "#F05F5C",
+            "opacity": ".8",
+            "z-index": "9999999"
+        }).appendTo('body').fadeOut(500).queue(function () { $(this).remove(); });
+    });
+}

@@ -1,0 +1,25 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:50%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.panel {
+	margin-left: 100px;
+	border-spacing: 50px;
+	width:50%;
+	border-spacing: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+#c {
+	position: relative;
+	margin-top: 570px;
+}

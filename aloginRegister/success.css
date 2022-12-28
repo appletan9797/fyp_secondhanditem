@@ -1,0 +1,53 @@
+table th tr {
+	border-collapse: collapse;
+}
+
+th tr {
+	text-align: center;
+}
+
+#tb {
+	border: 2px solid black;
+	padding: 5px;
+	width: 50%;
+	margin-top: 320px;
+	margin-left: 350px;	
+}
+
+#resetpw {
+	border: 1px solid black;
+	padding: 10px;
+	width: 100%;
+	margin-top: 320px;
+	margin-left: 350px;
+}
+
+.con {
+	margin-top: 500px;
+	margin-left:200px;
+}
+
+.conta {
+	margin-top: 60px;
+	margin-left: 100px;
+}
+
+tt{
+	text-align: left;
+}
+
+
+span.error {
+	font-weight: bold;
+	font-size: 15px;
+	color: #ff0000;
+}
+
+#c{
+	text-align: center;
+}
+
+h3 {
+	font-size: 20px;
+	font-family: Tahoma;
+}

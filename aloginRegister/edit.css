@@ -1,0 +1,51 @@
+
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:50%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+body {
+	font-family: "Helvetica Neuc",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+}
+
+.tab-content {
+	margin-left: 350px;
+	margin-bottom: 200px;
+	margin-top: -170px;
+}
+
+.panel {
+	border: 1px solid black;
+	margin-left: 150px;
+	border-spacing: 50px;
+	width:80%;
+	border-spacing: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+.pictureupload {
+	margin-left: 200px;
+}
+
+.fileUpload {
+	margin-left: 50px;
+}
+
+.main-title {
+	font-size: 30px;
+}
+

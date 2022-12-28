@@ -1,0 +1,77 @@
+#picture1, #picture2, #picture3{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+#Fields{
+margin-left: 400px;
+}
+
+#textbox{
+	margin-left:80px;
+	
+}
+#textbox1{
+	margin-left:80px;
+	color:gray;
+}
+
+
+br {
+    content: "";
+    margin: 1em;
+    display: block;
+    margin-bottom: 10px; 
+}
+
+#head{
+	border-bottom:2px;
+	border-top:2px;
+	background-color:#AED6F1;
+	text-align:center;
+}
+#bottom{
+
+	border-top:2px;
+	background-color:#AED6F1;
+	text-align:center;
+}
+
+#btnSubmit{
+	margin-left:1000px;
+}
+#btnReset{
+	margin-left:930px;
+}
+
+#rdnSelling, #rdnExchange{
+	width:18px;
+	height:18px;
+}
+
+#Words{
+	font-size:25px;
+	font-family:Rockwell Condensed;
+}
+#Pictures{
+	margin-top: 25px;
+	margin-left:30px;
+}
+
+#thumbnil1, #thumbnil2, #thumbnil3{
+	width:180px;
+    height:180px;	
+	margin-top:10px;
+}
+
+
+#reason, #ItemDescription{
+	resize:none;
+}
+.errorColor{
+	color:red;
+}

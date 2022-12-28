@@ -1,0 +1,44 @@
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width:50%;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+body {
+	font-family: "Helvetica Neuc",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #fff;
+}
+
+.tab-content {
+	margin-left: 250px;
+	margin-bottom: 200px;
+}
+
+.panel {
+	border: 1px solid black;
+	margin-left: 150px;
+	border-spacing: 50px;
+	width:70%;
+	height:500px;
+	border-spacing: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+.main-title {
+	font-size: 30px;
+}
+
+.error{
+	color:red;
+}

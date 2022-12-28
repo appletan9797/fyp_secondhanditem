@@ -1,0 +1,199 @@
+#img_div {
+	width:200px;
+	height:200px;
+	padding:5px;
+	margin:15px auto;
+	border:1px solid black;
+
+}
+
+#img_div :after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+#image {
+	float: left;
+width: 180px;
+}
+
+#text{
+	float:left;
+	width:300px;
+	
+}
+
+#thumbnil{
+	margin-left:50px;
+	width:80px;
+    height:80px;	
+	margin-top:1px;
+	border:1px solid black;
+}
+
+#head{
+	border-bottom:2px;
+	border-top:2px;
+	background-color:#AED6F1;
+	text-align:center;
+}
+#bottom{
+
+	border-top:2px;
+	background-color:#AED6F1;
+	text-align:center;
+	
+}
+
+#bottom2{
+
+	border-top:2px;
+	background-color:#AED6F1;
+	text-align:center;
+	margin-top:500px;
+}
+
+#SearchForm{
+	margin-left:250px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 25%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(n + 4) {
+    visibility: hidden;
+}
+
+#SelectCategory{
+	position:absolute;
+}
+
+.everything{
+	display:flex;
+	flex-direction:row;
+	padding-left:5em;
+	float:left;
+}
+
+#a{
+	margin-top:500px;
+	margin-left:320px;
+}
+.container{
+	margin-top:50px;
+
+}
+
+#break{
+    content: "";
+    margin: 2em;
+    display: block;
+    margin-bottom: 15px; 
+}
+
+#condition{
+	height:10px;
+	width:10px;
+}
+
+#exchange{
+	height:45px;
+	width:45px;
+	margin-left:30px;
+	margin-top:6px;
+}
+
+#sale{
+	height:45px;
+	width:45px;
+	margin-left:30px;
+	margin-top:1px;
+}
+
+
+#left{
+float:left;
+width: 60%;
+}
+
+#right {
+    float:right;
+    width: 40%;
+	margin-top:25px;
+}
+
+#lower{
+
+	margin-top:8px;
+	clear: both;
+}
+
+
+#recent{
+	height:35px;
+	width:35px;
+}
+
+#btnRecent,#btnCondition,#btnCondition2{
+	background-color:transparent;
+	border-style:none;
+	outline:none;
+}
+
+
+#outside{
+	border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+
+}
+
+#center{
+	text-align:center;
+}
+.pagination {
+    display: inline-block;
+	text-align:center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-size: 16px;
+	border:2px solid #ddd;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#condition2{
+	height:45px;
+	width:45px;
+}
+
+#hr{
+	margin-top:6px;
+}
+
+.related-image{
+     height:160px;
+   display: block;
+    margin: 0 auto;
+   width:160px;
+}
