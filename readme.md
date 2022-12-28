@@ -2,4 +2,4 @@
 
 ## Overview
 Final year project done in diploma.
-A platform for user to exchange or sell their second hand item.
+A platform for user to exchange or sell their second hand item that written in PHP.
